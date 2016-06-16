@@ -17,3 +17,5 @@ print("HERM : " + str(recordsPerMerchant.__getitem__('HERM')))
 print("KTNS : " + str(recordsPerMerchant.__getitem__('KTNS')))
 print("JESS : " + str(recordsPerMerchant.__getitem__('JESS')))
 print("MALS : " + str(recordsPerMerchant.__getitem__('MALS')))
+
+file.close()
